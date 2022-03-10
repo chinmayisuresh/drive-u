@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Select } from './Selectt';
 
 var x=0;
-localStorage.setItem('cart',JSON.stringify([]));
+
 export const Product=()=>{
    
 const {list ,addtocart , paginate , hightolow}=useContext(Winecontext);
